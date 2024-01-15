@@ -1,0 +1,34 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">Visualizar Veículo</h4>
+</div>
+<div class="modal-body">
+  <div class="row">
+    <div class="col-12">
+      <form>
+        <div class="form-group">
+          <div class="col-md-10">
+            <label for="nome">Nome</label>
+            <input class="form-control" id="placa" type="text" [value]="veiculo.placa | mask: plateMask" disabled />
+            <br />
+            <label for="dataAquisicao">Data de Aquisição</label>
+            <input class="form-control" id="dataAquisicao" type="text" [value]="veiculo.dataAquisicao | date: 'dd/MM/yyyy'" disabled />
+            <br />
+            <label for="valorAquisicao">Valor de Aquisição</label>
+            <input class="form-control" id="valorAquisicao" type="text" [value]="veiculo.valorAquisicao" disabled />
+            <br />
+            <label for="nome">Modelo de Veículo</label>
+            <input class="form-control" id="veiculoModelo" type="text" [value]="veiculo.veiculoModelo.nome" disabled />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="ibox-row-padding">
+    <hr class="hr-line" />
+  </div>
+  <div class="btn-toolbar" role="toolbar">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-danger" (click)="close()">Fechar</button>
+    </div>
+  </div>
+</div>
