@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haze.Anything.Caching\Haze.Anything.Caching.csproj" />
+    <ProjectReference Include="..\Haze.Anything.Infra.Data\Haze.Anything.Infra.Data.csproj" />
+    <ProjectReference Include="..\Haze.Core.Application\Haze.Core.Application.csproj" />
+  </ItemGroup>
+
+</Project>

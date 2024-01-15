@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haze.Authentication.Caching\Haze.Authentication.Caching.csproj" />
+    <ProjectReference Include="..\Haze.Authentication.Domain\Haze.Authentication.Domain.csproj" />
+    <ProjectReference Include="..\Haze.Authentication.Web\Haze.Authentication.Web.csproj" />
+    <ProjectReference Include="..\Haze.Core.Application\Haze.Core.Application.csproj" />
+  </ItemGroup>
+
+</Project>

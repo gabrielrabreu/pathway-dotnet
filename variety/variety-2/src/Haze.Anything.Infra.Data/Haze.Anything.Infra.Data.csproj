@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haze.Anything.Caching\Haze.Anything.Caching.csproj" />
+    <ProjectReference Include="..\Haze.Anything.Domain\Haze.Anything.Domain.csproj" />
+    <ProjectReference Include="..\Haze.Core.Infra.Data\Haze.Core.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

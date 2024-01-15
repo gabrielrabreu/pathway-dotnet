@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haze.Authentication.Application\Haze.Authentication.Application.csproj" />
+    <ProjectReference Include="..\Haze.Authentication.Domain\Haze.Authentication.Domain.csproj" />
+    <ProjectReference Include="..\Haze.Authentication.Infra.Data\Haze.Authentication.Infra.Data.csproj" />
+    <ProjectReference Include="..\Haze.Authentication.Web\Haze.Authentication.Web.csproj" />
+  </ItemGroup>
+
+</Project>

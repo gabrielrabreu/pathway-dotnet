@@ -1,0 +1,7 @@
+{
+  "criarMigrationData": "Add-Migration XXX -Context DataDbContext -o Migrations/DataDb",
+  "criarMigrationCache": "Add-Migration XXX -Context CacheDbContext -o Migrations/CacheDb",
+  "escolherProdOuDev": "$ENV:ASPNETCORE_ENVIRONMENT = 'Production/Development'",
+  "aplicarMigrationData": "Update-Database -Context DataDbContext",
+  "aplicarMigrationCache": "Update-Database -Context CacheDbContext"
+}
