@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\gabri\Desktop\Projeto Ecommerce\rest-api\src\RestAPI.API\bin\RestAPI.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestAPI.Infra.CrossCutting.IoC\RestAPI.Infra.CrossCutting.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
