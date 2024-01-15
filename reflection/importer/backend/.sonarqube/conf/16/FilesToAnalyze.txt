@@ -1,0 +1,1 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.CrossCutting.IoC\NativeInjectorBootStrapper.cs

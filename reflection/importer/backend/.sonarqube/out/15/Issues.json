@@ -1,0 +1,508 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.0-6.21526.21 (c7d6f9fa)",
+        "semanticVersion": "4.0.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 37,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 13,
+                  "endLine": 96,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 38,
+                  "endLine": 96,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 38,
+                  "endLine": 37,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.Model is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 67,
+                  "endLine": 96,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.Model is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 67,
+                  "endLine": 37,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Something.Domain.Entities.Xpto> is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 45,
+                  "endLine": 97,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Something.Domain.Entities.Xpto> is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 45,
+                  "endLine": 38,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 13,
+                  "endLine": 18,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 38,
+                  "endLine": 18,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.Model is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 67,
+                  "endLine": 18,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Something.Domain.Entities.Xpto> is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 45,
+                  "endLine": 19,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 13,
+                  "endLine": 55,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 38,
+                  "endLine": 55,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.Model is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 67,
+                  "endLine": 55,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Something.Domain.Entities.Xpto> is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 45,
+                  "endLine": 56,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 13,
+                  "endLine": 75,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.EntityType is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 38,
+                  "endLine": 75,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Internal.Model is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 67,
+                  "endLine": 75,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Something.Domain.Entities.Xpto> is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/tests/Something.Infra.Data.Tests/Mappings/XptoMappingTests.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 45,
+                  "endLine": 76,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "EF1001": {
+          "id": "EF1001",
+          "shortDescription": "Internal EF Core API usage.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

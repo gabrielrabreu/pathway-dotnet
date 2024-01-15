@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Something.API.Tests</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>963c1e3c-9b07-45ae-8c08-4b79aa0178f4</ProjectGuid>
+  <FullPath>C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\tests\Something.API.Tests\Something.API.Tests.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\.sonarqube\conf\18\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\.sonarqube\out\18\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\.sonarqube\out\18</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net5.0</TargetFramework>
+</ProjectInfo>

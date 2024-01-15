@@ -1,0 +1,3 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Application\DataTransferObjects\DataTransferObject.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Application\Interfaces\IAppService.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Application\Services\AppService.cs

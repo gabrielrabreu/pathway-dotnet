@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.0-6.21526.21 (c7d6f9fa)",
+        "semanticVersion": "4.0.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 34,
+                  "endLine": 125,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 13,
+                  "endLine": 131,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 17,
+                  "endLine": 135,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 21,
+                  "endLine": 138,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 25,
+                  "endLine": 141,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 29,
+                  "endLine": 145,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 75,
+                  "endLine": 145,
+                  "endColumn": 77
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/Something.Domain/CommandHandlers/ImportLayoutCommandHandler.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 17,
+                  "endLine": 157,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+4 (incl 3 for nesting)",
+              "4": "+5 (incl 4 for nesting)",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

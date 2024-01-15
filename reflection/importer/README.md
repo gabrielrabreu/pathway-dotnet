@@ -1,0 +1,5 @@
+# dotnet-generic-importer
+
+Projeto desenvolvido para estudo de conceitos avançados do .NET (Tipagem genérica, Reflection, etc).
+
+Nele temos uma entidade XPTO, com endpoint para criação e leitura. A entidade ImportLayout, que é a criação do layout que será posteriormente na importação, onde informamos um nome para o Layout, além de passar as colunas que serão utilizadas. Por fim, a entidade Import, que é de fato a importação, onde é informado o layout da importação e o conteúdo de um arquivo para importar, nisso é feito a criação da Importação (para histórico, que pode ser acessado via endpoint de leitura) e o processamento da mesma, onde lê linha por linha do arquivo e com uso de Reflection faz a criação da entidade e a chamada da AppService da entidade para a criação da mesma (onde passa por todas as regras de negócio que passaria ao chamar o endpoint normal de criação do XPTO), caso de algum problema no processamento ou barre em alguma regra de negócio, essa informação fica salva na importação que pode ser consultada posteriormente.

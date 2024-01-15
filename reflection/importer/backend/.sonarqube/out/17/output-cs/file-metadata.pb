@@ -1,0 +1,13 @@
+v
+mC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Configurations\AutoMapperConfig.csutf-8t
+kC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Configurations\DatabaseConfig.csutf-8
+vC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Configurations\DependencyInjectionConfig.csutf-8x
+oC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\HealthCheckController.csutf-8s
+jC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\ImportController.csutf-8y
+pC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\ImportLayoutController.csutf-8q
+hC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\XptoController.csutf-8^
+UC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Program.csutf-8^
+UC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Startup.csutf-8–
+ŠC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8„
+yC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\obj\Debug\net5.0\Something.API.AssemblyInfo.csutf-8˜
+ŒC:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\obj\Debug\net5.0\Something.API.MvcApplicationPartsAssemblyInfo.csutf-8

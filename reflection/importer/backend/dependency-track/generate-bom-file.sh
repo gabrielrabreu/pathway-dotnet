@@ -1,0 +1,1 @@
+dotnet CycloneDX ../GenericImporter.sln -o . 

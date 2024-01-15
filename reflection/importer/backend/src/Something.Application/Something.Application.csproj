@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Application\Core.Application.csproj" />
+    <ProjectReference Include="..\GenericImporter.Service\GenericImporter.Service.csproj" />
+    <ProjectReference Include="..\Something.Domain\Something.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

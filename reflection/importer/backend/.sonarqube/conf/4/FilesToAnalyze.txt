@@ -1,0 +1,3 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Infra.Data\Contexts\BaseDbContext.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Infra.Data\Contexts\IDbContext.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Infra.Data\Repositories\Repository.cs

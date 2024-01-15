@@ -1,0 +1,16 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Configurations\AutoMapperConfig.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Configurations\DatabaseConfig.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Configurations\DependencyInjectionConfig.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\HealthCheckController.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\ImportController.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\ImportLayoutController.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Controllers\XptoController.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Program.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Startup.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\obj\Debug\net5.0\Something.API.AssemblyInfo.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\obj\Debug\net5.0\Something.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\appsettings.Development.json
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\appsettings.json
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Dockerfile
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.API\Properties\launchSettings.json

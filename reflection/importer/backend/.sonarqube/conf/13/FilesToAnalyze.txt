@@ -1,0 +1,16 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Contexts\DataContext.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Mappings\ImportLayoutMapping.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Mappings\ImportMapping.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Mappings\XptoMapping.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211108232045_Initial.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211108232045_Initial.Designer.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211228001404_ImportLayoutEImport.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211228001404_ImportLayoutEImport.Designer.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211231174851_NewFieldsToXpto.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211231174851_NewFieldsToXpto.Designer.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211231180917_ImportLayoutColumnFormat.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\20211231180917_ImportLayoutColumnFormat.Designer.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Migrations\DataContextModelSnapshot.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Repositories\ImportLayoutRepository.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Repositories\ImportRepository.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Something.Infra.Data\Repositories\XptoRepository.cs

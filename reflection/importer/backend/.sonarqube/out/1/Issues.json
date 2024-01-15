@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.0-6.21526.21 (c7d6f9fa)",
+        "semanticVersion": "4.0.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/GenericImporter.Service/Exceptions/ImporterException.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/GenericImporter.Service/Exceptions/ImporterException.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 12,
+                  "endLine": 6,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Desenvolvimento/Repos/dotnet-generic-importer/backend/src/GenericImporter.Service/Exceptions/ImporterException.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 12,
+                  "endLine": 6,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add 'System.SerializableAttribute' attribute on 'ImporterException' because it implements 'ISerializable'.",
+              "1": "Add a 'protected' constructor 'ImporterException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S3925": {
+          "id": "S3925",
+          "shortDescription": "\"ISerializable\" should be implemented correctly",
+          "fullDescription": "The ISerializable interface is the mechanism to control the type serialization process. If not implemented correctly this could result in an invalid serialization and hard to detect bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3925",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

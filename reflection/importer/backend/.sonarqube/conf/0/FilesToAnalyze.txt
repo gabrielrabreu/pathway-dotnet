@@ -1,0 +1,16 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\CommandHandlers\CommandHandler.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Commands\Command.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Common\DomainMessage.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Common\DomainMessages.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Common\EnumExtensions.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Common\StringExtensions.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Entities\Entity.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Events\Event.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Events\Message.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Interfaces\IRepository.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Interfaces\IUnitOfWork.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Mediator\IMediatorHandler.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Mediator\MediatorHandler.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Notifications\DomainNotification.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Notifications\DomainNotificationHandler.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.Domain\Validators\CommandValidator.cs

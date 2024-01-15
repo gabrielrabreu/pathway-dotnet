@@ -1,0 +1,1 @@
+docker run -d -p 8082:9000 --name sonarqube-generic-importer sonarqube

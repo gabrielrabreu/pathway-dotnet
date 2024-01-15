@@ -1,0 +1,2 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.API\Common\UnprocessableEntityResponse.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\Core.API\Controllers\BaseController.cs

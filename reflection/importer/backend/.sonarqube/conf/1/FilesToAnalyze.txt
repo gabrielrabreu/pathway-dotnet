@@ -1,0 +1,6 @@
+﻿C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\GenericImporter.Service\Attributes\ImportClassAttribute.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\GenericImporter.Service\Attributes\ImportFieldAttribute.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\GenericImporter.Service\Exceptions\ImporterException.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\GenericImporter.Service\Extensions\ObjectExtensions.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\GenericImporter.Service\Extensions\PropertyInfoExtensions.cs
+C:\Desenvolvimento\Repos\dotnet-generic-importer\backend\src\GenericImporter.Service\Extensions\TypeExtensions.cs
